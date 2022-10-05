@@ -1,0 +1,59 @@
+body {
+    text-align: justify;
+    background-color: rgb(252, 153, 203);
+  }
+  .title {
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  .title:hover {
+  color: black;
+  font-size: 40px;
+  background-color: rgb(252, 153, 203);
+}
+.para_1 {
+  font: white;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.para_2 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+div.p {
+  text-align: left;
+}
+.four_points {
+  font: white;
+  font-size: 20px;
+  text-align: left;
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+   
+}
+p.end_para {
+  width: 350px;
+  margin: 0 auto;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.footer {
+ font: black;
+ width: 355px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}

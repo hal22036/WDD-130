@@ -9,14 +9,15 @@
 }
 nav a {
     text-align: left;
-    margin: 0 auto;
-    display: inline-block;
     font-size: 20px;
+    font-weight: bold;
     color: white;
     max-width: 1600px;
-    text-decoration: none;   
+    text-decoration: none;
+    display: inline-block;
 }
 nav a:hover {
+    text-align: left;
     color: #4e00f4;
     background-color: #a600fe;
 }
@@ -25,6 +26,7 @@ nav a:hover {
 }
 #hero-msg h1, #hero-msg h4 {
     max-width: 1600px;
+    text-align: center;
     margin: 0 auto;
 }
 .home-title {
@@ -62,6 +64,19 @@ main section {
 main section img {
     box-sizing: border-box;
 }
+.home-grid {
+    display: block;
+}
+.rivers-card {
+    display: block;
+    font-weight: bold;
+}
+.camping-card {
+    font-weight: bold;
+}
+.rivers-card {
+    font-weight: bold;
+}
 #background {
     height: 725px;
     background-color: #00e0dd;
@@ -82,9 +97,10 @@ header {
 }
 .icon {
     display: inline-block;
-    margin: 0 auto;
+    width: 80px;    
     text-align: center;
-    width: 80px;
+    margin: 0 auto;
+    
 }
 h2 {
     text-align: center;
@@ -125,6 +141,7 @@ footer a:hover {
     color: #4e00f4;
 }
 footer p {
+    text-align: left;
     font-size: 1.2em;
     color: #4e00f4;
 }

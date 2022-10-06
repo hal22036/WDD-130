@@ -1,26 +1,58 @@
 #content {
     max-width: 1600px;
+    text-align: left;
     margin: 0 auto;
 }
+.logo {
+    display: block;
+    width: 80px;
+}
 nav a {
-    font-size: 25px;
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 20px;
     color: white;
     max-width: 1600px;
-    text-decoration: none;
-   
+    text-decoration: none;   
 }
 nav a:hover {
     color: #4e00f4;
     background-color: #a600fe;
 }
+#hero-img {
+    width: 100%;
+}
 #hero-msg h1, #hero-msg h4 {
     max-width: 1600px;
     margin: 0 auto;
+}
+.home-title {
+    text-align: center;
+    margin: 0 auto;
+    color: black;
 }
 .button-box {
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
+}
+.book, .join {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    background-color: #00e0dd;
+    text-decoration: none;
+    width: 75px; 
+}
+.book:hover, .join:hover {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: #4e00f4;
 }
 main section {
     display: inline;
@@ -42,86 +74,6 @@ header {
     margin: 0 auto;
     background-color: #c65cff;
 }
-.book, .join {
-    display: block;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 auto;
-    color: black;
-    background-color: #00e0dd;
-    text-decoration: none;
-    width: 100px; 
-}
-.book:hover, .join:hover {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    color: white;
-    background-color: #a600fe;
-}
-.msg {
-    text-align: center;
-    margin: 0 auto;
-    background-color: #c65cff;
-}
-footer {
-    background-color: #c65cff;
-}
-.home-title {
-    text-align: center;
-    margin: 0 auto;
-    color: black;
-}
-h4 {
-    text-align: center;
-    margin: 0 auto;
-    color: #4e00f4;
-}
-.msg h2 {
-    text-align: center;
-    margin: 0 auto;
-    color: black;
-    background-color: #c65cff;
-}
-.msg p {
-    text-align: center;
-    margin: 0 auto;
-    color: white;
-    background-color: #c65cff;
-}
-footer h3 {
-    text-align: center;
-    margin: 0 auto;
-    color: #4e00f4;
-}
-footer a {
-    text-align: center;
-    margin: 0 auto;
-    color: #4e00f4;
-    text-decoration: none;
-}
-footer a:hover {
-    text-align: center;
-    margin: 0 auto;
-    color: #4e00f4;
-}
-.logo {
-    display: block;
-    text-align: left;
-    width: 120px;
-}
-#hero-img {
-    width: 100%;
-}
-footer p {
-    font-size: 1.2em;
-    color: #4e00f4;
-}
-footer p a:hover {
-    text-align: center;
-    margin: 0 auto;
-    text-decoration: underline;
-}
 .card-img {
     display: inline-block;
     width: 500px;
@@ -137,4 +89,47 @@ footer p a:hover {
 h2 {
     text-align: center;
     margin: 0 auto;
+}
+section.msg {
+    box-sizing: border-box;
+    background-color: #c65cff;
+}
+.msg h2, p, a{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: #c65cff;
+    box-sizing: border-box;
+}   
+footer {
+    background-color: #c65cff;
+}
+h4 {
+    text-align: left;
+    margin: 0 auto;
+    color: #4e00f4;
+}
+footer h3 {
+    text-align: left;
+    margin: 0 auto;
+    color: #4e00f4;
+}
+footer a {
+    text-align: left;
+    margin: 0 auto;
+    color: #4e00f4;
+    text-decoration: none;
+}
+footer a:hover {
+    text-align: center;
+    color: #4e00f4;
+}
+footer p {
+    font-size: 1.2em;
+    color: #4e00f4;
+}
+footer p a:hover {
+    text-align: left;
+    margin: 0 auto;
+    text-decoration: underline;
 }

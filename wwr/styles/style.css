@@ -7,7 +7,7 @@ nav a {
     color: white;
     max-width: 1600px;
     text-decoration: none;
-    text-align: left;
+   
 }
 nav a:hover {
     color: #4e00f4;
@@ -44,17 +44,13 @@ header {
 }
 .book, .join {
     display: block;
+    font-weight: bold;
     text-align: center;
     margin: 0 auto;
-    color: #4e00f4;
-    background-color: white;
+    color: black;
+    background-color: #00e0dd;
     text-decoration: none;
-}
-.join {
-    max-width: 1600px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #c65cff;
+    width: 100px; 
 }
 .book:hover, .join:hover {
     display: block;

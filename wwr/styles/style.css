@@ -7,13 +7,22 @@
     display: block;
     width: 80px;
 }
+
+#background {
+    height: 725px;
+    background-color: #00e0dd;
+}
+body {
+    background-color: whitesmoke;
+}
 header {
     text-align: left;
-
+    margin: 0 auto;
+    background-color: #c65cff;
 }
 nav a {
     display: inline-block;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -64,24 +73,13 @@ main section {
     display: inline;
     max-width: 1600px;
     margin: 0 auto;
+    text-align: center;
 }
 main section img {
     box-sizing: border-box;
 }
 .home-grid {
     display: block;
-}
-#background {
-    height: 725px;
-    background-color: #00e0dd;
-}
-body {
-    background-color: white;
-}
-header {
-    text-align: center;
-    margin: 0 auto;
-    background-color: #c65cff;
 }
 .card-img {
     display: inline-block;
@@ -94,7 +92,10 @@ header {
     width: 80px;    
     text-align: center;
     margin: 0 auto;
-    
+}
+.mountains {
+    display:block;
+
 }
 h2 {
     text-align: center;
@@ -143,4 +144,9 @@ footer p a:hover {
     text-align: left;
     margin: 0 auto;
     text-decoration: underline;
+}
+.social {
+    max-width: 1600px;
+    display: block;
+    text-align: left;
 }

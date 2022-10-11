@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Noto+Sans+Georgian&display=swap');
+
+:root {
+--heading-font: Kaushan Script;
+--paragraph-font: Noto Sans Georgian, Helvetica, sans-serif;
+}
 #content {
     max-width: 1600px;
     text-align: center;
     margin: 0 auto;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .logo {
     display: block;
@@ -11,11 +20,17 @@
 #background {
     height: 725px;
     background-color: #00e0dd;
+    margin-top: 60px;
 }
 body {
+    font-family: var(--paragraph-font);
+    font-size: 22px;
     background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
 }
 header {
+    font-family: var(--heading-font);
     text-align: left;
     margin: 0 auto;
     background-color: #c65cff;
@@ -28,6 +43,7 @@ nav a {
     color: white;
     max-width: 1600px;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     text-align: left;
@@ -43,8 +59,10 @@ nav a:hover {
     margin: 0 auto;
 }
 .home-title {
+    font-family: var(--heading-font);
+    font-size: 2em;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 10px;
     color: black;
 }
 .button-box {
@@ -55,12 +73,15 @@ nav a:hover {
 .book, .join {
     display: block;
     font-weight: bold;
+    font-size: 18px;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 50px;
     color: black;
     background-color: #00e0dd;
     text-decoration: none;
-    width: 75px; 
+    width: 150px; 
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     display: block;
@@ -77,6 +98,8 @@ main section {
 }
 main section img {
     box-sizing: border-box;
+    margin-top: 50px;
+
 }
 .home-grid {
     display: block;
@@ -85,25 +108,38 @@ main section img {
     display: inline-block;
     width: 500px;
     text-align: center;
-    margin: 0 auto;
+    border: 10px solid #00e0dd;
+    margin-top: 50px;
+}
+.rivers-card, .camping-card, .rapids-card {
+      margin: 200px 0;
 }
 .icon {
     display: inline-block;
     width: 80px;    
     text-align: center;
-    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 10px;
 }
 .mountains {
     display:block;
+    margin-top: 50px;
 
 }
 h2 {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 ;
 }
 section.msg {
     box-sizing: border-box;
     background-color: #c65cff;
+    line-height: 1.5em;
+    font-family: var(--heading-font);
+    font-size: .8em;
+    padding: 35px;
+}
+.msg p {
+    padding-bottom: 15px;
 }
 .msg h2, p, a{
     text-align: center;
@@ -111,9 +147,12 @@ section.msg {
     color: white;
     background-color: #c65cff;
     box-sizing: border-box;
+
 }   
 footer {
     background-color: #c65cff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 h4 {
     text-align: left;
@@ -149,4 +188,7 @@ footer p a:hover {
     max-width: 1600px;
     display: block;
     text-align: left;
+}
+footer .social img {
+    padding-top: 15px;
 }

@@ -131,7 +131,16 @@ main section img {
     display:block;
     margin-top: 50px;
     margin-bottom: 100px;
-
+}
+.msg {
+    box-sizing: border-box;
+    line-height: 1.5em;
+    font-family: var(--heading-font);
+    font-size: .8em;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 25px;
+    background-color: red;
 }
 h2 {
     text-align: center;
@@ -148,16 +157,6 @@ h2 {
     background-color: #c65cff;
     box-sizing: border-box;
 }   
-.msg {
-    box-sizing: border-box;
-    line-height: 1.5em;
-    font-family: var(--heading-font);
-    font-size: .8em;
-    padding: 25px;
-    margin: 30px;
-    border-radius: 25px;
-    background-color: red;
-}
 footer {
     background-color: #c65cff;
     padding: 25px 50px;

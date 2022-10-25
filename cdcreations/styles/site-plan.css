@@ -2,6 +2,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Calligraffitti&family=Handlee&display=swap');
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #941A20   ;
@@ -39,7 +40,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  scale: 30%;
+  width: 200px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);

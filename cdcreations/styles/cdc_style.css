@@ -94,19 +94,14 @@ img {
     text-align: center;
     color: black;
 }
+.button-box {
+    grid-template-rows: 4/5;
+}
 #page-grid {
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-}
-.button-box {
-    width: 100%;
-    font-weight: bold;
-    width: 120px; 
-    border-radius: 5px;  
-    font-size: 18px;
-    color: black;
+    grid-template-rows: 20% 1fr 1fr 1fr 1fr 1fr;
 }
 .products-img {
     grid-area: 1/1/2/3;
@@ -119,12 +114,11 @@ img {
 .products, .ordering {
     border-radius: 25px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     background-color: #E15E64;
     transition: transform .5s;
     box-shadow: 10px 10px 15px #6f7364;
-    
 }
 .products {
     grid-area: 4/1/5/3;

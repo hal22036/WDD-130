@@ -105,10 +105,14 @@ img {
     grid-template-rows: 30% 10% 5% 1fr 1fr;
 }
 .products-img {
-    grid-area: 1/1/2/3;
+    grid-area: 1/1/2/3;    
+    transform: scale(1.75);
+    width: 100%;
 }
 .ordering-img {
     grid-area: 1/4/2/6;
+    transform: scale(1.75);
+    width: 100%;
 }
 .products, .ordering {
     font-weight: bold;
@@ -126,16 +130,6 @@ img {
 }
 .products:hover, .ordering:hover {
     background-color: #658506;
-}
-.products-card {
-    transform: scale(2.5);
-    height: 150px;
-    width: 100%;
-}
-.ordering-card {
-    transform: scale(1);
-    height: 150px;
-    width: 100%;
 }
 .msg {
     display: block;

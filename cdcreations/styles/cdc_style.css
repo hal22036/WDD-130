@@ -154,7 +154,7 @@ img {
     z-index: 1;
 }
 .apple-whole {
-    filter:grayscale(30%);
+    filter:grayscale(20%);
     padding: 20px;
     width: 19%;
     grid-column:1/2;
@@ -165,7 +165,7 @@ img {
     z-index: 1;
 }
 .pumpkin-roll {
-    filter:grayscale(30%);
+    filter:grayscale(20%);
     width: 19%;
     grid-column:2/3;
 }
@@ -175,7 +175,7 @@ img {
     z-index: 1;
 }
 .Pumpkin-pie {
-    filter:grayscale(30%);
+    filter:grayscale(20%);
     padding: 20px;
     width: 19%;
     grid-column:3/4;
@@ -186,7 +186,7 @@ img {
     z-index: 1;
 }
 .apple-slice {
-    filter:grayscale(30%);
+    filter:grayscale(20%);
     width: 19%;
     grid-column:4/5;
 }
@@ -196,7 +196,7 @@ img {
     z-index: 1;
 }
 .cinnamon-roll {
-    filter:grayscale(30%);
+    filter:grayscale(20%);
     padding: 20px;
     width: 18%;
     grid-column:5/6;

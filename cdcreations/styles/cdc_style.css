@@ -64,6 +64,7 @@ img {
 #spread {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr; 
+    grid-template-rows: 70% 30%;
 }
 #spread-box {
     grid-column: 1/4;
@@ -101,18 +102,15 @@ img {
     padding: 10px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 20% 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30% 10% 5% 1fr 1fr;
 }
 .products-img {
     grid-area: 1/1/2/3;
-    padding: 20px;
 }
 .ordering-img {
     grid-area: 1/4/2/6;
-    padding: 20px;
 }
 .products, .ordering {
-    border-radius: 25px;
     font-weight: bold;
     font-size: 20px;
     color: black;
@@ -121,23 +119,21 @@ img {
     box-shadow: 10px 10px 15px #6f7364;
 }
 .products {
-    grid-area: 4/1/5/3;
+    grid-area: 3/1/4/3;
 }
 .ordering {
-    grid-area: 4/4/6/5;
+    grid-area: 3/4/4/6;
 }
 .products:hover, .ordering:hover {
     background-color: #658506;
 }
 .products-card {
     transform: scale(2.5);
-    border-radius: 25px;
     height: 150px;
     width: 100%;
 }
 .ordering-card {
     transform: scale(1);
-    border-radius: 25px;
     height: 150px;
     width: 100%;
 }
@@ -156,7 +152,7 @@ img {
     display: flex;
     align-items: center;
     grid-column: 1/6;
-    grid-row: 5/6;
+    grid-row: 4/5;
 } 
 .apple-whole:hover {
     transform: scale(3);
@@ -213,19 +209,22 @@ img {
 }
 .page-info {
     grid-column: 1/6;
-    grid-row: 6/7;
+    grid-row: 5/6;
+    font-size: 1.5em;
 }
 .page-info h1 {
     text-align: center;
 }
 footer {    
     background-color: #658506;
+    padding: 25px 50px;
+    margin-top: 200px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px;
 }
 h4 {
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     color: white;
 }
@@ -235,7 +234,8 @@ footer h3 {
     color: white;
 }
 footer a {
-    text-align: center;
+    text-align: left;
+    margin: 0 auto;
     color: white;
     text-decoration: none;
 }
@@ -244,18 +244,19 @@ footer a:hover {
     color: black;
 }
 footer p {
-    text-align: center;
-    font-size: 1.2em;
+    text-align: left;
+    font-size: 1.5em;
     color: white;
 }
 footer p a:hover {
-    text-align: center;
+    text-align: left;
+    margin: 0 auto;
     text-decoration: underline;
 }
 .social {
     display: flex;
+    text-align: left;
 }
 footer .social img {
-    padding-top: 5px;
-    width: 40%;
+    padding: 15px;
 }

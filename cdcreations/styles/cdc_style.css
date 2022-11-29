@@ -210,6 +210,7 @@ img {
     grid-column: 1/6;
     grid-row: 5/6;
     font-size: 1.5em;
+    margin-bottom: 200px;
 }
 .page-info h1 {
     text-align: center;
@@ -235,44 +236,60 @@ nav a:hover {
 }
 #product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
 }
-.product-info {
-    text-align: center;
-    font-size: 1.75em;
-    max-width: 1200px;
-    justify-items: center;
-    margin: 0 auto;
+.pie-info {    
+    grid-area: 1/1/2/2;
+    font-size: 1.3em;
+    padding: 0;
 }
 .pies-img {
-    width: 90%;
-    grid-area: 1/1/2/2;
+    width: 100%;
 } 
-.smpies-img {
-    width: 90%;
+.spie-info {    
     grid-area: 1/2/2/3;
+    font-size: 1.3em;
+}
+.smpies-img {
+    width: 100%;
 } 
+.swtroll-info {
+    grid-area: 1/3/2/4;
+    font-size: 1.3em;
+    padding: 0;
+}
 .swtrolls-img {
-    width: 90%;
-    grid-area: 2/1/3/2;
+    width: 100%;
 }  
+.proll-info {
+    grid-area: 2/1/3/2;
+    font-size: 1.3em;
+    padding: 0;
+}
 .proll-img {
     width: 90%;
-    grid-area: 2/2/3/3;
 }  
+.sugar-info {
+    grid-area: 2/2/3/3;
+    margin: 0 auto;
+    font-size: 1.3em;
+    padding: 0;
+}
 .sugar-img {
     width: 90%;
-    grid-area: 3/1/4/2;
 }  
-.p-page-info {
-    width: 90%;
+.product-page-info {
+    width: 80%;
     grid-area: 2/3/3/4;
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1.15em;
 } 
 
-/*----------ordering page-----------*/
+
+/*--------------------ordering page-----------------------------*/
 #order-spread {
     display: grid;
     grid-template-columns: 15% 70% 15%; 
@@ -315,6 +332,7 @@ nav a:hover {
 #order-page-grid {
     position: relative;
     font-weight: bold;
+    margin-bottom: 200px;
 }
 .grid {
     display: grid;
@@ -532,11 +550,13 @@ input[type=text] {
     margin-top: 3em;
 }
 
+.p-page-info {
+    text-align: center;
+}
 /*-----------------------------footer---------------------------------*/
 footer {    
     background-color: #658506;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;

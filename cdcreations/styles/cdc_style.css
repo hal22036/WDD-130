@@ -240,6 +240,7 @@ nav a:hover {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
     justify-content: center;
+    padding: 60px;
 }
 .pie-info {    
     grid-area: 1/1/2/2;
@@ -320,7 +321,7 @@ nav a:hover {
 }
 .pie-img {
     width: 100%;
-    opacity: 50%;
+    opacity: 30%;
     z-index: -1;
 }
 #order-content {
